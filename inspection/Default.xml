@@ -1,5 +1,17 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
   <inspection_tool class="BooleanMethodIsAlwaysInverted" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CanBeFinal" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="REPORT_CLASSES" value="false" />
+    <option name="REPORT_METHODS" value="false" />
+    <option name="REPORT_FIELDS" value="true" />
+  </inspection_tool>
+  <inspection_tool class="ClassMayBeInterface" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="PublicField" enabled="false" level="INFORMATION" enabled_by_default="false">
+    <option name="ignoreEnums" value="false" />
+    <option name="ignorableAnnotations">
+      <value />
+    </option>
+  </inspection_tool>
   <inspection_tool class="UNUSED_IMPORT" enabled="false" level="WARNING" enabled_by_default="false" />
 </profile>
