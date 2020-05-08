@@ -1,0 +1,7 @@
+<code_scheme name="Default" version="173">
+  <option name="SOFT_MARGINS" value="100,120" />
+  <JavaCodeStyleSettings>
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="5000" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="3000" />
+  </JavaCodeStyleSettings>
+</code_scheme>

@@ -1,0 +1,10 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Java/Declaration/Replace implements with static import" />
+    <ignoreAction name="Java/Imports/Add on-demand static import" />
+    <ignoreAction name="Java/Imports/Add single-member static import" />
+    <ignoreAction name="Java/Imports/Expand static import" />
+    <ignoreAction name="Java/Imports/Replace cast with variable" />
+    <ignoreAction name="Kotlin/Import members with '*'" />
+  </component>
+</application>
