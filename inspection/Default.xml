@@ -36,7 +36,7 @@
   <inspection_tool class="LambdaParameterTypeCanBeSpecified" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="LengthOneStringsInConcatenation" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="LoopToCallChain" enabled="false" level="INFORMATION" enabled_by_default="false" />
-  <inspection_tool class="MethodCanBeVariableArityMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="MethodCanBeVariableArityMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="MethodRefCanBeReplacedWithLambda" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="ignoreObjectMethods" value="false" />
