@@ -1,0 +1,9 @@
+<application>
+  <component name="GraziConfig">
+    <option name="userDisabledRules">
+      <set>
+        <option value="LanguageTool.EN.OUTSIDE_OF" />
+      </set>
+    </option>
+  </component>
+</application>
