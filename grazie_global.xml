@@ -3,6 +3,7 @@
     <option name="userDisabledRules">
       <set>
         <option value="LanguageTool.EN.OUTSIDE_OF" />
+        <option value="LanguageTool.EN.EN_A_VS_AN" />
       </set>
     </option>
   </component>
