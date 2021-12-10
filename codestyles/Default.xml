@@ -4,4 +4,12 @@
   <JavaCodeStyleSettings>
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="5" />
   </JavaCodeStyleSettings>
+  <codeStyleSettings language="JAVA">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
+    <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
+    <option name="SPACE_WITHIN_EMPTY_ARRAY_INITIALIZER_BRACES" value="true" />
+    <option name="SPACE_BEFORE_ARRAY_INITIALIZER_LBRACE" value="true" />
+  </codeStyleSettings>
 </code_scheme>
