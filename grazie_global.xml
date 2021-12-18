@@ -11,6 +11,7 @@
         <option name="suppressed">
           <set>
             <option value="as the shares payment should" />
+            <option value="the mine" />
           </set>
         </option>
       </SuppressingContext>
