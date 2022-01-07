@@ -11,8 +11,9 @@
         <option name="suppressed">
           <set>
             <option value="as the shares payment should" />
-            <option value="the mine" />
             <option value="region Variable Declarations region General" />
+            <option value="the mine" />
+            <option value="This sets up" />
           </set>
         </option>
       </SuppressingContext>
