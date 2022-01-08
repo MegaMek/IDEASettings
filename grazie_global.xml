@@ -11,9 +11,11 @@
         <option name="suppressed">
           <set>
             <option value="as the shares payment should" />
+            <option value="This sets up" />
             <option value="region Variable Declarations region General" />
             <option value="the mine" />
-            <option value="This sets up" />
+            <option value="ValidationState.FAILURE" />
+            <option value="ValidationState.WARNING" />
           </set>
         </option>
       </SuppressingContext>
