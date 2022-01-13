@@ -14,7 +14,6 @@
     <option name="loggerNamesString" value="java.util.logging.Logger,org.slf4j.Logger,org.apache.commons.logging.Log,org.apache.log4j.Logger,org.apache.logging.log4j.Logger" />
   </inspection_tool>
   <inspection_tool class="CollectionsFieldAccessReplaceableByMethodCall" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ComparatorNotSerializable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConditionalCanBeOptional" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ConditionalCanBePushedInsideExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="ConditionalExpression" enabled="false" level="INFORMATION" enabled_by_default="false" />
@@ -38,6 +37,7 @@
   <inspection_tool class="ExplicitArgumentCanBeLambda" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ExplicitThis" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ExtendsConcreteCollection" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ExternalizableWithoutPublicNoArgConstructor" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FieldMayBeFinal" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FoldExpressionIntoStream" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="FrequentlyUsedInheritorInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
@@ -89,17 +89,10 @@
     <option name="ignoreObjectMethods" value="false" />
     <option name="ignoreAnonymousClassMethods" value="false" />
   </inspection_tool>
+  <inspection_tool class="MissingSerialAnnotation" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MoveFieldAssignmentToInitializer" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="MultiCatchCanBeSplit" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="MultipleVariablesInDeclaration" enabled="false" level="INFORMATION" enabled_by_default="false" />
-  <inspection_tool class="NonSerializableFieldInSerializableClass" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignorableAnnotations">
-      <value />
-    </option>
-    <option name="ignoreAnonymousInnerClasses" value="false" />
-    <option name="superClassString" value="java.awt.Component" />
-  </inspection_tool>
-  <inspection_tool class="NonSerializableWithSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ObjectEquality" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="m_ignoreEnums" value="true" />
     <option name="m_ignoreClassObjects" value="true" />
@@ -120,8 +113,6 @@
   </inspection_tool>
   <inspection_tool class="RandomDoubleForRandomInteger" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RawTypeCanBeGeneric" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ReadObjectAndWriteObjectPrivate" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ReadResolveAndWriteReplaceProtected" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RecordCanBeClass" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="RedundantElseInIf" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="RedundantExplicitVariableType" enabled="false" level="INFORMATION" enabled_by_default="false" />
@@ -142,17 +133,8 @@
   <inspection_tool class="ReplaceToStringWithStringTemplate" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ReturnSeparatedFromComputation" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ScopeFunctionConversion" enabled="false" level="INFORMATION" enabled_by_default="false" />
-  <inspection_tool class="SerialVersionUIDNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="SerializableInnerClassHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreAnonymousInnerClasses" value="false" />
-    <option name="superClassString" value="java.awt.Component" />
-  </inspection_tool>
-  <inspection_tool class="SerializableInnerClassWithNonSerializableOuterClass" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreAnonymousInnerClasses" value="false" />
-    <option name="superClassString" value="java.awt.Component" />
-  </inspection_tool>
-  <inspection_tool class="SerializableWithUnconstructableAncestor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SerialAnnotationUsedOnWrongMember" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SerializableRecordContainsIgnoredMembers" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SimplifiableIfStatement" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="SimplifyForEach" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="SingleElementAnnotation" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
