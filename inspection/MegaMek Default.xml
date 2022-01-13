@@ -21,6 +21,7 @@
   <inspection_tool class="ConfusingElse" enabled="false" level="WEAK WARNING" enabled_by_default="false">
     <option name="reportWhenNoStatementFollow" value="true" />
   </inspection_tool>
+  <inspection_tool class="ConstantAssertCondition" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantExpression" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ControlFlowStatementWithoutBraces" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="Convert2streamapi" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
@@ -40,7 +41,7 @@
   <inspection_tool class="FieldMayBeFinal" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FoldExpressionIntoStream" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="FrequentlyUsedInheritorInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-  <inspection_tool class="IfCanBeAssertion" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="IfCanBeAssertion" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ImplicitThis" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="TOP_LEVEL_CLASS_OPTIONS">
@@ -131,6 +132,7 @@
   </inspection_tool>
   <inspection_tool class="RegExpEscapedMetaCharacter" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ReplaceGuardClauseWithFunctionCall" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="ReplaceNotNullAssertionWithElvisReturn" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="ReplaceStringFormatWithLiteral" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ReplaceSubstringWithDropLast" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ReplaceSubstringWithIndexingOperation" enabled="false" level="INFORMATION" enabled_by_default="false" />
@@ -152,7 +154,6 @@
   </inspection_tool>
   <inspection_tool class="SerializableWithUnconstructableAncestor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SimplifiableIfStatement" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
-  <inspection_tool class="SimplifyAssertNotNull" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="SimplifyForEach" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="SingleElementAnnotation" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="SingleStatementInBlock" enabled="false" level="WARNING" enabled_by_default="false" />
