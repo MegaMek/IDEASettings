@@ -21,7 +21,7 @@
     <option name="reportWhenNoStatementFollow" value="true" />
   </inspection_tool>
   <inspection_tool class="ConstantAssertCondition" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ConstantExpression" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConstantExpression" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ControlFlowStatementWithoutBraces" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="Convert2streamapi" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="ConvertLambdaToReference" enabled="false" level="INFORMATION" enabled_by_default="false" />
