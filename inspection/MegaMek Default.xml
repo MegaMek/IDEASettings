@@ -143,7 +143,7 @@
   <inspection_tool class="StreamToLoop" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="StringEqualsEmptyString" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="SwitchLabeledRuleCanBeCodeBlock" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
-  <inspection_tool class="SwitchStatementsWithoutDefault" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="SwitchStatementsWithoutDefault" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="m_ignoreFullyCoveredEnums" value="true" />
   </inspection_tool>
   <inspection_tool class="SystemOutErr" enabled="true" level="WARNING" enabled_by_default="true" />
