@@ -1,5 +1,11 @@
 <application>
   <component name="GraziConfig">
+    <option name="enabledLanguages">
+      <set>
+        <option value="English (US)" />
+        <option value="German (Germany)" />
+      </set>
+    </option>
     <option name="userDisabledRules">
       <set>
         <option value="LanguageTool.EN.OUTSIDE_OF" />
@@ -10,13 +16,13 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
-            <option value="ValidationState.FAILURE" />
-            <option value="as the shares payment should" />
-            <option value="ValidationState.WARNING" />
             <option value="This sets up" />
+            <option value="ValidationState.FAILURE" />
+            <option value="ValidationState.WARNING" />
+            <option value="as the shares payment should" />
+            <option value="cash so we do" />
             <option value="region Variable Declarations region General" />
             <option value="the mine" />
-            <option value="cash so we do" />
           </set>
         </option>
       </SuppressingContext>
