@@ -11,9 +11,9 @@
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
-    <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.yml</mask>
     <mask>*.gradle</mask>
+    <mask>*.properties</mask>
   </component>
 </application>
