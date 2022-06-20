@@ -1,0 +1,12 @@
+<application>
+  <component name="TextDiffSettings">
+    <option name="PLACES_MAP">
+      <entry key="TestsFiledAssertions">
+        <PlaceSettings>
+          <option name="HIGHLIGHT_POLICY" value="BY_LINE" />
+          <option name="SHOW_WHITESPACES" value="true" />
+        </PlaceSettings>
+      </entry>
+    </option>
+  </component>
+</application>
