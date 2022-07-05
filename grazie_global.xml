@@ -18,6 +18,7 @@
         <option name="suppressed">
           <set>
             <option value="ValidationState.FAILURE" />
+            <option value="region Variable Declarations region Magic" />
             <option value="the sent" />
             <option value="as the shares payment should" />
             <option value="ValidationState.WARNING" />
@@ -26,7 +27,7 @@
             <option value="region Variable Declarations region General" />
             <option value="the mine" />
             <option value="Finances Files" />
-            <option value="region Variable Declarations region Magic" />
+            <option value="irregardless" />
           </set>
         </option>
       </SuppressingContext>
